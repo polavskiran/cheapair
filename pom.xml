@@ -104,7 +104,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/suiteXmlFiles/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-
 				</configuration>
 			</plugin>
 			<plugin>
