@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Cleatrip Test Automation">
-	<test name="Homepage Test">	  
+
+	<parameter name="journeyType" value="OneWay"></parameter>
+	<parameter name="journeyDate" value="2021-11-15"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="Homepage Test">
 		<classes>
-			 <class name="tests.TestHomePage"/>
+			<class name="tests.TestHomePage" />
 		</classes>
 	</test>
 </suite>
