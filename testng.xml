@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Test Suite" parallel="classes">
+
+	<parameter name="journeyType" value="OneWay"></parameter>
+	<parameter name="journeyDate" value="2021-11-15"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<test thread-count="3" name="Flight Search Test Chrome">
+		<classes>
+			<class name="tests.TestHomePage" />
+		</classes>
+	</test> <!-- Flight Search Test -->
+	
+	<parameter name="journeyType" value="OneWay"></parameter>
+	<parameter name="journeyDate" value="2021-11-15"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test thread-count="3" name="Flight Search Test Firefox">
+		<classes>
+			<class name="tests.TestHomePage" />
+		</classes>
+	</test> <!-- Flight Search Test -->
+	
+</suite> <!-- Test Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Test Suite" parallel="methods">
+
+	<listeners>
+		<listener class-name="util.WebDriverListener"></listener>
+	</listeners>
+	<test name="Test">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="tests.ThreadLocal"></class>
+		</classes>
+	</test>
+	
+</suite> <!-- Test Suite -->
