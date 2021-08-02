@@ -102,7 +102,7 @@
 				<configuration>
 					<!-- <forkCount>0</forkCount> -->
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/suiteXmlFiles/EndToEndTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/suiteXmlFiles/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>
